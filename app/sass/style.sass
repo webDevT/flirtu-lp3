@@ -95,11 +95,17 @@ a:hover
     background-clip: text
     text-fill-color: transparent
 .city:after 
-    content: url('../img/line.svg')
+    content: ""
     position: absolute
-    bottom: 0%
+    bottom: -17px
     transform: translateY(50%)
     right: 0 
+    width: 100%
+    height: 7px
+    border: solid 7px #0BF0C7
+    border-color: #0BF0C7 transparent transparent transparent
+    border-radius: 90%/100% 100% 0 0
+    transform: rotate(-1deg)
 .photo-wrapper 
     width: 100%
     height: 291px
@@ -247,7 +253,8 @@ a:hover
     top: 229px
     left: 120pz 
 //end photo icons style
-
+.city-row 
+    white-space: nowrap  
 @import "media"
 
 
